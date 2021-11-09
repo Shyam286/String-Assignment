@@ -1,0 +1,34 @@
+package com.string.assignment;
+
+public class String_3 {
+	public static void main(String[] args) {
+		String str="Java string pool refers to collection of Strings which are stored in heap memory";
+		
+		//lowercase() convert lowercase to uppsercase
+		String lowercase=str.toLowerCase();
+		System.out.println("Lowercase String:- "+lowercase);
+		
+		//uppsercase() convert uppsercase to lowercase
+		String uppercase=str.toUpperCase();
+		System.out.println("Uppercase"+uppercase);
+		
+		//replace() replace 'a' with '$'
+		String replace=str.replace("a", "$");
+		System.out.println("After Repalcing a with $: "+replace);
+		
+		//contains() check String contain word 'collection' and return true or false
+		boolean check=str.contains("collection");
+		System.out.println("collection is present or not"+check);
+		
+		//equals() check wheather two string is equal or not and return true or false
+		String str2="java string pool refers to collection of strings which are stored in heap memory";
+		System.out.println(str.equals(str2));
+		
+		//equalsIgnoreCase() check wheather two string is equal or not ignoring their cases and return true or false
+		System.out.println(str.equalsIgnoreCase(str2));
+		
+		
+		
+	}
+
+}

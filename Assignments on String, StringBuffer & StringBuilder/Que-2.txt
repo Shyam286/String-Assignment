@@ -1,0 +1,10 @@
+package com.string.assignment;
+
+public class String_2 {
+	public static void main(String[] args) {
+		String str1="Hello, ";
+		String str2="How are you?";
+		System.out.println("After joining String: "+str1.concat(str2));
+	}
+
+}
